@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pokemon Visualization</title>
+  <link rel="icon" href="./Assets/pokemonball.png" type="image/icon type">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+  <div id="mySidenav" class="sidenav">
+    <a href="./TheSweet16.html" id="sweet16">Sweet16</a>
+    <a href="./index.html" id="arena">Arena</a>
+    <a href="./SpawnChance.html" id="localisation">Gotcha</a>
+    <a href="./about.html" id="about">About</a>
+    <a href="./intro.html" id="home">Home</a>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-12">
+
+        <h1><span style="color:rgb(255, 208, 0)">A</span>bout </h1> 
+
+
+        <p class="text">The Pokémon Go app hit the streets a couple years ago and people are STILL playing! For our project we decided to analyze location data and various attributes for 16 different Pokémon. We choose San Francisco specifically because it is heavily populated with players and is one of the few cities that we could find a dataset for on the site Kaggle.
+          After creating two databases from CSV files, we were able to make several interactive visualizations for our HTML page. SQL, D3.js, Mapbox and more were all incorporated to make this project come together.
+        </p>
+        <hr>
+        <p class="text">On the "Sweet 16" tab, you will find a dropdown and chart displaying common statistics for our chosen 16 Pokémon. As to not overwhelm the browser, we are only providing data on the top 10 most commonly caught in the San Fran area along with 6 other well-known Pokémon.
+        </p>
+        <hr>
+        <p class="text">On the "Arena" page, the user is able to compare different powers a Pokémon may have against their opponent in battle. 
+        </p>
+        <hr>
+        <p class="text">And finally, clicking on the "Gotcha" tab will lead you to an interactive map showing popular locations where a Pokémon Go player can find (and hopefully catch) our sweet 16 Pokémon. Updating this map will also update a bar chart that compares the Poké-encounters. Enjoy!
+        </p>
+      </div>
+    </div>
+    <img class="pic3" src="Assets/allpokemons.png" alt="" > 
+
+</div> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.js"></script>
+    <script type="text/javascript" src="static/js/app.js"></script> 
+  </body>
+<footer class="footer">
+    <span class="bottom"> © 2020 Copyright - Michelle Hannah, Sylvain David, Tony Samor and Shawn Boehm</span>
+  </footer>
+</html>
